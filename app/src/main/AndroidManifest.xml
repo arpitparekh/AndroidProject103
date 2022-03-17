@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="arpitparekh.verylateandroidbatch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="VeryLateAndroidProject"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JigneshAndroidProject"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".retrofit_api_calling_headers_parameter.PhotoListActivity"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".retrofit_ImageSearch.ImageActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".retrofit_api_calling.MyRetrofitActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".api_calling.SecondMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".api_calling.JsonCalllingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".room_crud.RoomListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
