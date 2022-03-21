@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896448727714",
+    "project_id": "verylateandroidbatch",
+    "storage_bucket": "verylateandroidbatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896448727714:android:f3b921c9b324df300225fb",
+        "android_client_info": {
+          "package_name": "arpitparekh.jigneshandroidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896448727714-sotgkpkjtacso6g83n8i9ikogm5leahn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arpitparekh.jigneshandroidproject",
+            "certificate_hash": "dfc6f6ad5ebf7cee0b53a0c13b39d286befd0619"
+          }
+        },
+        {
+          "client_id": "896448727714-kc811mso2157jqpqbjikiu0c14vqn9rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdPNZOW2JAoSjj_58tZmKoY6X7e92OUtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896448727714-kc811mso2157jqpqbjikiu0c14vqn9rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

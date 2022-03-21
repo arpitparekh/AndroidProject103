@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 
@@ -41,6 +42,7 @@ public class JsonCalllingActivity extends AppCompatActivity {
     void getData(){
 
         Executor executor = Executors.newSingleThreadExecutor();
+        Handler handler = new Handler();
 
         executor.execute(new Runnable() {
             @Override
@@ -74,6 +76,12 @@ public class JsonCalllingActivity extends AppCompatActivity {
 
                         list.add(n);
 
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+
+                            }
+                        });
 
 
                     }

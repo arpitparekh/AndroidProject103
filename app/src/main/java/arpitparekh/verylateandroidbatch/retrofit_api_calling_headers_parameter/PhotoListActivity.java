@@ -19,7 +19,8 @@ public class PhotoListActivity extends AppCompatActivity {
     private ActivityPhotoListBinding binding;
     private PhotoCall api;
     List<ValueItem> list;
-    @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityPhotoListBinding.inflate(getLayoutInflater());

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_expandable_list_item_1.xml" value="0.2890625" />
+        <entry key="app/src/main/res/layout/activity_authentication.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_image.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_json_callling.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4" />
@@ -11,6 +12,8 @@
         <entry key="app/src/main/res/layout/activity_my_retrofit.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/activity_photo_list.xml" value="0.24722222222222223" />
         <entry key="app/src/main/res/layout/activity_room_list.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/image_row_item.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/update_dialog.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/menu/update_delete_menu.xml" value="0.29010416666666666" />
