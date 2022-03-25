@@ -3,6 +3,8 @@
     package="arpitparekh.verylateandroidbatch">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -12,9 +14,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JigneshAndroidProject"
         android:usesCleartextTraffic="true">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAT7n6juS_v9EQ-20w7eQ_WoRmU_sOlSgI" />
+
         <activity
-            android:name=".firebase_realtime_storage.RealtimeActivity"
-            android:exported="true" >
+            android:name=".google_map.MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,13 +43,16 @@
 
         </activity>
         <activity
-            android:name=".firebase_auth.AuthenticationActivity"
+            android:name=".firebase_realtime_storage.RealtimeActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".retrofit_api_calling_headers_parameter.PhotoListActivity"
+            android:name=".firebase_auth.AuthenticationActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".retrofit_api_calling_headers_parameter.PhotoListActivity"
+            android:exported="true" />
         <activity
             android:name=".retrofit_ImageSearch.ImageActivity"
             android:exported="true" />
