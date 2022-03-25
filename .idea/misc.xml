@@ -11,7 +11,9 @@
         <entry key="app/src/main/res/layout/activity_maulik_api.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my_retrofit.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/activity_photo_list.xml" value="0.24722222222222223" />
+        <entry key="app/src/main/res/layout/activity_realtime.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_room_list.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/image_row_item.xml" value="0.2609375" />
