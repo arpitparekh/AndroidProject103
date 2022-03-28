@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import arpitparekh.verylateandroidbatch.R;
 import arpitparekh.verylateandroidbatch.databinding.FragmentLoginBinding;
 
+
 public class LoginFragment extends Fragment {
 
     private FragmentLoginBinding binding;

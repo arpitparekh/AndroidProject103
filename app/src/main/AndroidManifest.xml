@@ -3,8 +3,12 @@
     package="arpitparekh.verylateandroidbatch">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -12,9 +16,30 @@
         android:label="VeryLateAndroidProject"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.JigneshAndroidProject"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".DownloadPhotoActivity"
+            android:exported="true" >
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <service
+            android:name=".services.MusicService"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".services.MyServiceActivity"
+            android:exported="true">
+
+        </activity>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -33,23 +58,13 @@
         <activity
             android:name=".google_map.MapsActivity"
             android:exported="true"
-            android:label="@string/title_activity_maps" >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+            android:label="@string/title_activity_maps"></activity>
         <activity
             android:name=".firebase_realtime_storage.RealtimeActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".firebase_auth.AuthenticationActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".retrofit_api_calling_headers_parameter.PhotoListActivity"
             android:exported="true" />
