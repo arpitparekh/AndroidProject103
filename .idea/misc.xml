@@ -6,15 +6,18 @@
         <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/simple_expandable_list_item_1.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/activity_authentication.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_download_photo.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/activity_get_otp.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_image.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_json_callling.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="app/src/main/res/layout/activity_maulik_api.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my_retrofit.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/activity_my_service.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_photo_list.xml" value="0.24722222222222223" />
         <entry key="app/src/main/res/layout/activity_realtime.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_room_list.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_sensor.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2609375" />
